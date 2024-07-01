@@ -1,0 +1,121 @@
+body
+{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(213, 227, 235);    
+    font-family: -apple-system, BlinkMacSystemFont, 
+        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.nav
+{
+    background-color: white;
+    overflow: hidden;
+}
+.dept
+{
+    width: 90%;
+    height: auto;
+    margin: 40px auto;
+    overflow: hidden;
+}
+.dept-container
+{
+    width: 32%;
+    height: 230px;
+    margin: 5px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.548);
+    overflow: hidden;
+    display: inline-block;
+}
+.dept-container img
+{
+    height:150px;
+    width: 150px;
+    margin: 20px 30%;
+    overflow: hidden;
+}
+.dept-container h2
+{
+    text-align: center;
+    width: 100%;
+    letter-spacing: 2px;
+    margin: 0%;
+   overflow: hidden;
+}
+.dept-container:hover
+{
+    cursor: pointer;
+    background-color: rgb(48, 170, 78);
+    color: white;
+    transition: 0.4s all;
+}
+.result
+{
+    width: 90%;
+    height: auto;
+    margin: 20px auto;  
+}
+.result label{
+    margin: 2%  40%;
+    font-size: 29px;
+}
+.graph
+{
+    position: relative;
+    height: 95%;
+    width: 100%;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.288);
+    overflow: hidden;
+}
+.result-container
+{   
+    width: 10%;
+    height: 90%;
+    position: relative;
+    margin: 10px 15px;
+    display: inline-block;
+    
+}
+.process
+{
+ 
+    background-color: rgb(79, 91, 253);
+    width: 40px;
+    margin:0px 30%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    height: 92%;
+    overflow: hidden;
+}
+.process:hover
+{
+    background-color: rgb(55, 192, 55);
+    transition: 0.4s all;
+}
+.text
+{
+    width: 100%;
+    height: 50px;
+    position: relative;
+}
+.text label
+{
+    position: relative; 
+    margin: auto;
+    border-bottom: 2px solid  rgba(250, 77, 114, 0.932);
+    font-size: 23px;
+    overflow: hidden;
+}
+.graph-container
+{
+    margin: 3% 9%;
+    margin-bottom: 0%;
+    width: auto;
+    height: auto;
+    overflow: hidden    ;
+}

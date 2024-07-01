@@ -1,0 +1,154 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+body
+{
+    background-image: url(../images/helpbnr.jpg);
+    margin: 0%;
+    padding: 0%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    
+    background-color: black;
+}
+.form
+{
+    height: auto;
+    width: 30%;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.795);
+    margin: 20% auto;
+}
+.label
+{
+    width: 90%;
+    height: 35px;
+    margin: 10px auto;
+}
+.active
+{
+    border-radius: 10px;
+    background-color: rgb(115, 115, 236);
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+.sub-label
+{
+    display: inline-block;
+    width: 49%;
+    margin: 5px auto;
+}
+.sub-label label
+{
+    font-size: 20px;
+    color: black;
+}
+hr
+{
+    width: 80%;
+    text-align: center;
+    border: 1px solid rgb(108, 108, 236);
+}
+input
+{
+    height: 30px;
+    width: 70%;
+    margin: 20px auto;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgb(117, 160, 241);
+    text-align: center;
+    font-size: 18px;
+    
+}
+.fp
+{
+    color: rgb(105, 105, 240);
+    text-decoration: none;
+    font-size: 19px;
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    text-align: left;
+}
+button
+{
+    width: 50%;
+    background-color: rgb(138, 138, 247);
+    height: 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    outline: none;
+    display: block;
+    margin: 10px auto;
+    margin-bottom: 20px;
+}
+form img
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+form a
+{
+    margin: 110px 10px;
+    overflow: hidden;
+}
+.form label:hover
+{
+    cursor: pointer;
+    color: white;
+}
+input:focus
+{
+    background-color: rgba(113, 113, 233, 0.479);
+    border: 1.8px solid rgb(113, 113, 233);
+    transition: 0.3s all;
+    color: white;
+}
+button:hover
+{
+    background-color: green;
+    color: white;
+    transition: 0.3s all;
+}
+    </style>
+</head>
+<body>
+    <section class="form">
+        <div class="label">
+            <div class="sub-label active">
+                <label >Login</label>
+            </div>
+            <div class="sub-label">
+                <label>sign up</label>
+            </div>
+        </div>
+        <hr>
+        <form method="post" action="login.php" enctype="multipart/form-data">
+            <div class="input">
+                <input type="text" placeholder="Username" name="uname" required>
+            </div>
+            <div class="input">
+                <input type="password" placeholder="password" name="pass" required>
+            </div>
+            <a href="#" class="fp">Forgot password ?</a>
+            <button name="login">Login</button>
+            <a href="#"><img src="../images/instagram.png"></a>
+            <a href="#"><img src="../images/twit.png"></a>
+            <a href="#"><img src="../images/facebook.png"></a>
+        </form>
+    </section>
+</body>
+</html>

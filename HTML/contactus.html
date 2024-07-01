@@ -1,0 +1,397 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Contact</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@700&display=swap');
+body
+        {
+            margin:0;
+            padding:0;
+            background:#112031;
+        }
+.nav    
+{
+    position: relative;
+    margin:0px auto;
+    width: 100%;
+    height: 80px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0px 10px 10px rgba(152, 183, 243, 0.678) ;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.secnav
+{
+    height: 100%;
+    display: inline-block;
+    overflow: hidden;
+    background-color: white;
+}
+#logo
+{
+    height: 90%;
+    width: 20%;
+    float: left;
+    
+    margin: 0 13px;
+}
+#logo img
+{
+    height: 95%;
+    width: 50%;
+    margin:5px 40px;
+    background-color: white;
+    overflow: hidden;
+}
+#navigation
+{
+    width: 55%;
+    float: center;   
+    margin: 20px 80px;
+    overflow: hidden;
+    }
+#navigation a
+{
+    color: rgba(0, 0, 0, 0.637);
+    letter-spacing: 0px;
+    font-size: 20px;
+    text-transform: capitalize;
+    position: relative;
+    text-decoration: none;
+    margin: 0% 4%;
+    right: 0%;
+    padding: auto;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+}
+#navigation a:hover
+{
+    border-bottom: 2px solid rgb(30, 62, 240);
+
+    transition: 0.2s all;
+}
+.Active
+{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.555);
+}
+.banner
+{
+    height: 45%;
+    width: 100%;
+    background-image: url(../images/contactbg.jpg);
+    background-size: 100%;
+    opacity: 0.8;
+    margin: 0%;
+    font-family: 'El Messiri', sans-serif;
+    overflow: hidden;
+}
+.banner h3
+{
+    font-size: 75px;
+    width: 90% ;
+    text-align: center;
+    margin: 0% 0%;
+    margin-bottom: 0%;
+    opacity: 0.6;
+    color: white;
+  
+}
+.banner h4
+{
+    width: 44% ;
+    font-size: 75px;
+    text-align: left;
+    float: right;
+    color: white;
+    opacity: 0.6;   
+    margin: -1% 0% ;
+    
+}
+.main
+{
+    width: 100%;
+    height: auto;
+    background-color: whitesmoke;
+    margin: 0%;
+    overflow: hidden;
+}
+.main div
+{       
+    width:49.4%;
+    display: inline-block;
+    height: 52%;
+    margin: 0%;
+    overflow: hidden;
+}
+.main form
+{
+    width:90%;
+
+    margin: 50px auto;
+}
+.main form h2
+{
+    text-align: center;
+    font-size: 33px;
+    font-weight: lighter;
+    margin: 22px 0px;
+    font-family: 'El Messiri', sans-serif;
+    letter-spacing: 1px;    
+}
+.main form input
+{
+    display: block;
+    margin: 4% 2%;
+    width: 90%;
+    height: 35px;
+    outline: none;
+    border: none;
+    border: 1px solid #032d55;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.main form textarea
+{
+    display: block;
+    margin: 4% 2%;
+    width: 90%;
+    height: 80px;
+    outline: none;
+    border: none;
+    border: 1px solid #032d55;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.main form textarea:focus
+{
+    border: 1px solid green;
+    transition: 0.3s all;  
+}
+
+.main form input:focus
+{
+    border: 1px solid tomato;
+    transition: 0.3s all;
+}
+.main form button
+{
+    height: 45px;
+    width: 30%;
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: rgb(35, 54, 228);
+    color: whitesmoke;
+    letter-spacing: 2px;
+    border: none;
+    margin: 10px 70px;
+    float: right;
+}
+.main form button:active
+{
+    background-color: rgb(86, 111, 194);
+    transition: 0.2s all;
+}
+.main .svg img
+{
+    display: block;
+    margin: 10px auto;
+    height: 90%;
+    width: 85%;
+    margin-bottom: 0%;
+}
+.main .svg
+{
+    border-left: 4px solid rgba(0, 0, 0, 0.144);
+    text-align: center;
+}
+.main .svg label
+{
+    color: rgb(21, 50, 218);
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.social
+{
+    width: 100%;
+    height: 20%;
+    background-color: whitesmoke;
+    margin: 0%;
+    overflow: hidden;
+    text-align: center;
+}
+.social h2
+{
+    margin: 3% 0;
+    margin-bottom: 1%;
+    font-weight: lighter;
+    font-size: 34px;
+    font-family: 'El Messiri', sans-serif;
+}
+.social a
+{
+    
+    margin:2px 6px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.social a img
+{
+   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+.social a img:hover
+{
+    background: linear-gradient(145deg, #dfdfe6, #ffffff);
+box-shadow:  29px 29px 58px #636366,
+             -29px -29px 58px #ffffff;
+}
+.info
+{
+    width: 100%;
+    height: 55%;
+    background: linear-gradient(145deg, #dfdfe6, #ffffff);
+box-shadow:  29px 29px 58px #d8d8de,
+             -29px -29px 58px #ffffff;
+             font-family: 'El Messiri', sans-serif;
+}
+.info div
+{
+    height: 100%;
+    width: 49.7%;
+    display: inline-block;
+    overflow: hidden;
+    background: linear-gradient(145deg, #dfdfe6, #ffffff);
+box-shadow:  29px 29px 58px #d8d8de,
+             -29px -29px 58px #ffffff;
+}
+.information h2
+{
+    text-align: center;
+    font-size: 40px;
+    margin: 50px 0;
+}
+.information label
+{
+    width: 70%;
+    display: block;
+    margin:20px 17% ;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(0, 0, 0, 0.555);
+}
+.links
+{
+    text-align: center;
+}
+.links h3
+{
+    text-align: center;
+    font-size: 32px;
+    margin: 50px 0;
+    margin-bottom: 30px;
+}
+.links a{
+    display: block;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.616);
+    font-size: 24px;
+    margin: 10px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.links a:hover
+{
+    letter-spacing: 2px;
+    color: rgb(101, 14, 240);
+    text-decoration: underline  ;
+    transition: 0.4s all;
+}
+.foot
+{
+    width: 100%;
+    background-color: #393E46;
+    color: whitesmoke;
+    margin: 0%;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 2px;
+    position: relative      ;
+}
+    </style>
+</head>
+<body>
+    <section class="nav">
+        <div class="secnav" id="logo">
+            <img src="../images/color.png">
+        </div>
+        <div class="secnav" id="navigation">
+            <a href="home.php">Home</a>
+            <a href="Department.php">Department</a>
+            <a href="About.html">About</a>
+            <a href="contactus.html" class="Active">Contact</a>
+            <a href="../Php/help.php">Help</a>
+        </div>
+    </section>   
+    <section class="banner">
+        <h3>Let's </h3>
+        <h4>Talk</h4>
+    </section> 
+    <section class="main">
+        <div class="form">
+            <form method="post" enctype="multipart/form-data" autocomplete="on" action="../Php/contact.php">
+                <h2>Suggestion</h2>
+                <input type="text" placeholder="Name" name = "name" required>
+                <input type="text"placeholder="collage name" name="cname" required>
+                <input type="email" placeholder="email" name="email" required>
+                <textarea name="suggestion" placeholder="message...."  maxlength="300"></textarea>
+                <button name="suggesr">Send</button>
+            </form>
+        </div>
+        <div class="svg">
+        <img src="../images/contact.svg">
+        <label>Leave A reply related to suggestion,feedback,Devlopment.</label>
+        </div>
+    </section> 
+    <section class="social">
+        <h2>Follow on social</h2>
+        <a href="#"><img src="../images/facebook.png" alt="facebook"></a>
+        <a href="#"><img src="../images/instagram.png" alt="instagram"></a>
+        <a href="#"><img src="../images/twit.png" alt="twitter"></a>
+        <a href="#"><img src="../images/github.svg  " alt="github"></a>
+    </section>
+    <section class="info">
+        <div class="information">
+            <h2>Contact Us</h2>
+            <label>+91 12345 12345</label>
+            <label>gtuhelp@gmail.com</label>
+            <label>govermentpolytechnic.com</label>
+            <label>Government polytechnic Ahmedabad panjrapole Ahmedabad 23551</label>
+            <label>Faculty</label>
+        </div>
+        <div class="links">
+            <h3>Quick Links</h3>
+            <a href="#">Login</a>
+            <a href="#">Home</a>
+            <a href="#">Get Attendence</a>
+            <a href="#">contact</a>
+            <a href="#">Help</a>
+            <a href="#">Department</a>
+            <a href="#">Edit profile</a>
+            <a href="#">Follow Social Media </a>
+            <a href="#">Log out</a>
+        </div>
+    </section>
+    <p class="foot">Attendence software @copyright 2021 . com</p>
+</body>
+</html>
