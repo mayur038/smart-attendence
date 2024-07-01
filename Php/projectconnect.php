@@ -4,7 +4,7 @@
     $server = "localhost";
  $username = "if0_36811992";
  $password = "ifmayu1512";
- $database = "phpproj";
+ $database = "if0_36811992_phpproj";
     $con = mysqli_connect($server,$username,$password,$database);
 
     if(!$con)
